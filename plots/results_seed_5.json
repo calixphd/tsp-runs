@@ -1,0 +1,16 @@
+{
+  "best_bitstring": "0110",
+  "best_cost": 80,
+  "top_feasible": [
+    {
+      "bitstring": "0110",
+      "count": 189,
+      "cost": 80
+    },
+    {
+      "bitstring": "1001",
+      "count": 189,
+      "cost": 80
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+tsp_file,n,min_cost,p_blockwise,beta_blockwise,gamma_blockwise
+TSP/wi3_1.tsp,3,3568.0,0.11227963217037512,2.8797932657906435,1.9634954084936205
