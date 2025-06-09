@@ -239,10 +239,10 @@ def plot_histogram(n, seed, filename, shots=1024):
 # 10) Main
 # =========================
 if __name__ == '__main__':
-    N = 2
-    SEEDS = range(20)
+    N = 4
+    SEEDS = range(1)
     CSV_FILE = f'qaoa_benchmark_{N}.csv'
-    run_and_save(N, SEEDS, CSV_FILE, steps=25)
+    run_and_save(N, SEEDS, CSV_FILE, steps=1)
     for s in SEEDS:
         plot_histogram(N, s, CSV_FILE)
 
